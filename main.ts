@@ -69,7 +69,7 @@ scene.onHitTile(SpriteKind.Player, 11, function (sprite) {
 // level 3 teleporter brown
 scene.onHitTile(SpriteKind.Player, 14, function (sprite) {
     game.splash("level 3")
-    jared.setPosition(950, 980)
+    jared.setPosition(950, 960)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.trampoline1, function (sprite, otherSprite) {
 	
@@ -1448,7 +1448,6 @@ let slider4: Sprite = null
 let supertramp: Sprite = null
 let jared: Sprite = null
 game.splash("5 levels")
-game.splash(game.askForString("What is your name? press Z to enter characters"))
 jared = sprites.create(img`
 . . . . . . f f f f . . . . . . 
 . . . . . f . . . . f . . . . . 
@@ -1484,38 +1483,38 @@ f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f 
 f 1 1 1 1 1 1 1 1 1 1 7 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 7 2 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . 5 . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . f f f . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 7 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 7 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . 7 . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 7 f 
 f 1 1 1 1 1 1 c 1 1 1 1 1 f f f f f f f f f f f f f f . . . 9 . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 7 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 7 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . c . 7 . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 7 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 7 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 7 1 1 f f f f f f f f f f f f f f . . . . . . . c . 7 . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . c . . . . f f f f f f f f f f f f 1 1 1 1 1 7 2 2 2 2 2 2 f 
-f 1 1 1 1 1 1 1 1 7 1 1 1 f f f f f f f f f f f f f f . . . . . . . c . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . c . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 c 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . 7 . . . . . . f f f f f f f f f f f f 7 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 7 1 1 1 f f f f f f f f f f f f f f . . . . . 7 . . . . . . f f f f f f f f f f f f 7 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 7 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 c 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . 8 . . . . . . . . . . f f f f f f f f f f f f 1 1 1 7 1 c 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 c 1 1 1 1 1 f 
 f 1 1 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . 7 . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 7 1 f f f f f f f f f f f f f f . . . . . c . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
-f 1 1 1 1 1 1 c 1 1 1 1 1 f f f f f f f f f f f f f f . . . 7 . . c c . . . . f f f f f f f f f f f f 2 2 2 2 2 2 1 c 1 2 2 2 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . c . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
+f 1 1 1 1 1 1 c 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . c c . . . . f f f f f f f f f f f f 2 2 2 2 2 2 1 c 1 2 2 2 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . 7 . . . . c . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 c 1 1 1 1 f 
-f 1 1 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . 7 . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 5 2 2 2 2 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . 7 . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 5 2 2 2 2 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . c . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 4 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . 7 . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 4 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . 7 . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . c . . . . . . . . . f f f f f f f f f f f f 1 1 7 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . 7 . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
@@ -1524,11 +1523,11 @@ f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f 
 f 1 1 1 1 1 c 1 1 1 1 2 2 f f f f f f f f f f f f f f . . . 7 c . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 c 1 1 1 1 1 f 
 f 1 1 1 1 1 c 1 1 1 2 2 2 f f f f f f f f f f f f f f . . . . . c . . . . . . f f f f f f f f f f f f 2 2 2 1 1 1 1 2 2 2 2 2 f 
 f 1 1 1 1 1 c 1 1 2 2 2 2 f f f f f f f f f f f f f f . . . . . c . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 7 1 1 1 1 1 f 
-f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . c . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . c . 7 . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 2 2 2 2 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . 7 . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 2 2 2 2 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 2 2 2 2 7 c 1 1 1 2 2 2 f 
-f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 c 1 1 1 1 1 1 f 
+f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . . . 7 . . . . f f f f f f f f f f f f 1 1 1 1 1 c 1 1 1 1 1 1 f 
 f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . c . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 c 1 1 1 1 1 1 f 
 f 2 1 1 1 1 c 1 2 2 2 2 2 f f f f f f f f f f f f f f . . . . . c c . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 1 1 1 1 1 1 2 2 2 2 2 f f f f f f f f f f f f f f . . 7 . . . . c . . . . f f f f f f f f f f f f 1 1 1 1 1 7 1 1 1 1 1 1 f 
