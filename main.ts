@@ -254,7 +254,7 @@ f 2 2 2 2 1 2 1 7 1 1 1 1 f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 f f f 
 f 2 2 2 2 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 1 1 1 3 1 1 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
 f 2 2 2 2 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
-f 2 2 2 2 1 1 1 1 1 1 7 1 f f f f f f f f f f f f f f f f f f f f 7 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 2 2 2 2 1 1 1 1 1 1 7 1 f f f f f f f f f f f f f f f f f f f f 7 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 9 1 1 1 1 1 1 f 
 f 2 2 2 2 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 2 2 2 2 2 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
 f 2 2 2 2 1 7 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 2 2 2 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 1 2 2 2 2 2 2 2 f f f f f f f f f f f f f 2 2 2 2 1 1 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
@@ -273,8 +273,8 @@ f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 1 1 1 1 1 1 f f f 
 f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
 f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 1 1 1 1 1 7 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 7 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
-f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 2 2 2 2 2 2 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
+f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 7 2 2 2 2 2 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 2 2 2 2 2 2 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
 f 2 2 2 2 2 2 1 2 2 2 2 2 f f f f f f f f f f f f f 2 1 1 1 1 2 2 2 2 2 2 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 1 1 1 1 2 2 2 2 2 2 f f f f f f f f f f f f f f c 1 c 1 c 1 c 1 c 1 c 1 f 
@@ -288,8 +288,8 @@ f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 1 1 1 1 1 1 1 1 f f f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 5 1 1 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 7 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 2 2 1 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 2 2 2 2 2 2 2 2 2 2 2 2 f f f f f f f f f f f f f 2 2 2 2 2 2 1 1 1 1 1 f f f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 2 2 2 2 2 2 2 2 2 2 2 2 f f f f f f f f f f f f f 2 2 2 2 2 2 2 1 1 7 1 f f f f f f f f f f f f f f 5 5 5 5 5 9 9 5 5 5 5 5 f 
-f 2 2 2 2 2 2 2 2 2 2 2 c f f f f f f f f f f f f f 2 2 2 2 2 2 2 2 2 2 2 f f f f f f f f f f f f f f f f f f f f f f f f f f f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f 2 2 2 2 2 2 2 1 1 7 1 f f f f f f f f f f f f f f 5 5 5 5 5 9 9 5 5 5 5 5 f 
+f 1 1 1 1 1 1 1 1 1 1 1 c f f f f f f f f f f f f f 2 2 2 2 2 2 2 2 2 2 2 f f f f f f f f f f f f f f f f f f f f f f f f f f f 
 `)
     for (let value3 of scene.getTilesByType(9)) {
         megatrampoline = sprites.create(img`
@@ -1038,7 +1038,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.coin, function (sprite, otherSpr
     info.changeScoreBy(1)
 })
 scene.onHitTile(SpriteKind.Player, 10, function (sprite) {
-    game.splash("level 5", "technically you won but")
+    game.splash("level 5")
     jared.setPosition(570, 960)
 })
 // slider jumping
@@ -1480,8 +1480,8 @@ f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . . . . . . . f 
 f 1 1 1 1 7 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . . . . . . . f f f f f f f f f f f f 5 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . c . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 7 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 7 2 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . 5 . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 7 2 1 1 1 1 1 1 1 1 f 
+f 1 1 1 1 1 1 1 1 7 1 1 1 f f f f f f f f f f f f f f . . . 5 . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . f f f . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . . . . f f f f f f f f f f f f 1 1 1 1 1 1 1 7 1 1 1 1 f 
 f 1 1 1 1 1 1 1 1 1 1 1 1 f f f f f f f f f f f f f f . . . . . . . . . 7 . . f f f f f f f f f f f f 1 1 1 1 1 1 1 1 1 1 1 1 f 
